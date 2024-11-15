@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Post in Details</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>View Post In Detail</h1>
+    <div class="viewPost">
+        <h2>@<%= currPost.username %></h2>
+        <p><%= currPost.content %></p>
+    </div>
+
+    <h5>Post id : <%= currPost.id %></h5>
+
+    <form method="get" action="/posts"><button>Back</button></form>
+</body>
+</html>

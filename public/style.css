@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post{
+    width: 50rem;
+    height: 10rem;
+    margin-top: 1rem;
+    background-color: beige;
+    border-radius: 0.8rem;
+}
+
+.username{
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    margin: 2rem;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 20rem;
+    border-width: 0.4rem;
+    background-color: beige;
+}
+
+form textarea{
+    margin: 2rem;
+    border-radius: 0.5rem;
+    background-color: beige;
+    max-width: 40rem;
+    max-height: 8rem;
+}
+
+form button{
+    border-radius: 1rem;
+    height: 3rem;
+    width: 10rem;
+    background-color: aqua;
+    position:fixed;
+    top: 39rem;
+    left: 75rem;
+}
+
+div a button{
+    width: 5rem;
+    height: 2rem;
+    background-color: aquamarine;
+    border-radius: 0.8rem;
+    font-weight: 550;
+}
+
+div p{
+    min-height: 5rem ;
+}
+
+h1{
+    margin-top: 1rem;
+}
+
+.viewPost{
+    margin-top: 2rem;
+    background-color: beige;
+    height: 20rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+h2{
+    margin: 2rem;
+    text-decoration: underline solid black;
+}
+
+.delBtn{
+    margin-left: 34rem;
+}
+
+form button:hover{
+    cursor: pointer;
+}
+
+div a button:hover{
+    cursor: pointer;
+}
+
